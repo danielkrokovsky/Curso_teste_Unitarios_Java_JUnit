@@ -27,7 +27,7 @@ public class GerenciadoraClientesTest_Ex1 {
 		Cliente cliente = gerClientes.pesquisaCliente(1);
 		
 		assertThat(cliente.getId(), is(3));
-		assertThat(cliente.getEmail(), is("gugafarias@gmail.com"));
+		assertThat(cliente.getEmail(), is("1111gugafarias@gmail.com"));
 		
 	}
 
